@@ -1,6 +1,5 @@
 package web;
 
-import dao.entities.Translator;
 import servises.TranslatorService;
 import servises.impl.MySqlTranslatorService;
 

@@ -1,23 +1,14 @@
-import dao.entities.Language;
 import dao.entities.Order;
-import dao.entities.Translator;
-import dao.entities.User;
-import org.junit.Test;
-import servises.TranslatorService;
-import servises.impl.LanguageServiceImpl;
 import servises.impl.OrderServiceImpl;
 import servises.impl.MySqlTranslatorService;
-import servises.impl.UserServiceImpl;
 
-import java.sql.Date;
 import java.sql.SQLException;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 
 public class UnitTestForLang extends MySqlTranslatorService {
 
-    @Test
+   // @Test
     public void forTranslatorTest() throws SQLException {
 
 

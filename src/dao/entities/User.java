@@ -1,6 +1,5 @@
 package dao.entities;
 
-import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -9,7 +8,6 @@ import java.io.Serializable;
 
 @Entity
 @Table (name = "user")
-@Data
 public class User implements Serializable {
     @Id
     private long idUser;

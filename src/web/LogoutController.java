@@ -17,10 +17,5 @@ public class LogoutController extends HttpServlet  {
         resp.setCharacterEncoding("UTF-8");
         req.getRequestDispatcher("/WEB-INF/pages/login.jsp").forward(req, resp);
     }
-//    @Override
-//    protected void goPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-//        String MAIN_PAGE ="/WEB-INF/index.jsp";
-//        req.getSession().invalidate();
-//        req.getRequestDispatcher(MAIN_PAGE).forward(req, resp);
-//    }
+
 }

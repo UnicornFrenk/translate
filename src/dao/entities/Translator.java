@@ -1,9 +1,7 @@
 package dao.entities;
 
-import lombok.Data;
 
 
-@Data
 public class Translator {
 
     private long idTranslator;

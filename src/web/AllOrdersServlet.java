@@ -23,7 +23,6 @@ public class AllOrdersServlet extends HttpServlet {
         List<Order> orders = orderService.getAll();
         req.setAttribute("orders", orders);
         req.getRequestDispatcher("/WEB-INF/pages/orders.jsp").forward(req, resp);
-       // resp.sendRedirect(req.getContextPath() + "/orders");
     }
 
 }

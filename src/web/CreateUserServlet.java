@@ -1,10 +1,8 @@
 package web;
 
-import dao.entities.User;
 import servises.UserService;
 import servises.impl.UserServiceImpl;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

@@ -1,7 +1,5 @@
 package web.aboutUS;
 
-import servises.UserService;
-import servises.impl.UserServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

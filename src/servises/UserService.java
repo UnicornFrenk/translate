@@ -2,8 +2,6 @@ package servises;
 
 import dao.entities.User;
 
-import java.io.Serializable;
-import java.util.List;
 
 public interface UserService {
     User create(String userName, String password);

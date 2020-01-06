@@ -2,8 +2,6 @@ package servises;
 
 
 import dao.entities.Order;
-import java.sql.SQLException;
-import java.util.Date;
 import java.util.List;
 
 public interface OrderService {
