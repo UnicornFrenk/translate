@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+address {
+    font-size: large;
+    color: gray;
+}
+
+blockquote{
+    font-style: inherit;
+    font-size: small;
+    color: grey;
+}
+body {
+    margin: 0;
+    background-image: url(http://www.evropa.nikopol.net/fon1/background_31.png);
+    color: #302E2D;
+}
+header {
+    padding: 50px 20px;
+    margin-right: 20px;
+    background-image: url(https://st4.depositphotos.com/5624298/22157/i/1600/depositphotos_221577192-stock-photo-working-place-wooden-desktop-coffee.jpg);
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-size: larger;
+    font-style: italic;
+}
+.container {
+    padding: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px gray;
+    border-radius: 20px;
+}
+.main-content {
+    margin-right: 20px;
+    background:-webkit-linear-gradient(#666660 0%, #ffffff 100%);
+    padding: auto;
+    border: 2px gray;
+    border-radius: 20px;
+}
+aside {
+    background: -webkit-linear-gradient(#666660 0%, #ffffff 100%);
+    padding: 40px 30px;
+    flex-basis: 50px;
+    flex-shrink: 0;
+    border: 2px gray;
+    border-radius: 20px;
+}
+footer {
+    padding: 30px 60px;
+    margin-right: 20px;
+    background:-webkit-linear-gradient(#666660 0%, #ffffff 100%);
+    border-radius: 20px;
+    border: 2px gray;
+}
+
+@media (min-width: 860px) {
+    .container {
+        display: flex;
+    }
+}
+@media (max-width: 859px) {
+    .main-content {
+        margin: 0 0 30px 0;
+    }
+}
+#menu {
+    padding: 0;
+    margin: 0;
+    font-family:  Verdana;
+}
+#menu li {
+    list-style: none;
+    float: left;
+    height: 30px;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background:  -webkit-linear-gradient(#666660 0%, #ffffff 100%);
+    position: relative;
+    padding: 12px 0 0;
+    border: 3px gray;
+    border-radius: 8px;
+}
+#menu li ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 42px;
+}
+#menu li ul li{
+    float: none;
+    height: 30px;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: -webkit-linear-gradient(#666660 0%, #ffffff 100%);
+    font-size: small;
+    font-style: italic;
+}
+#menu li a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    color:    #006A35;
+    text-decoration: none;
+}
+#menu li a2{
+    width: 300px;
+    height: 300px;
+    color: #006A35;
+    text-decoration: none;
+}
+#menu li:hover ul{
+    display: block;
+}
+#menu li:hover{
+    background:-webkit-linear-gradient(#666660 0%, #ffffff 100%);
+}
+#menu li ul li ul{
+    left:150px;
+    top: 0;
+}
+#menu li ul li ul li{display: none;}
+#menu li ul li:hover ul li{display: block;}
+
+
+img {
+    width: 20px;
+}
+
+a.registration{
+    text-decoration: blink;
+    font-size: small;
+
+}
+
+.footer{
+    font-style: italic;
+}
+
+
+
+#translators {
+    padding: 0;
+    margin: 0;
+    font-family:  Verdana;
+}
+#translators li {
+    list-style: none;
+    float: left;
+    height: 50px;
+    margin: 0;
+    width: 250px;
+    text-align: center;
+    background:  -webkit-linear-gradient(#666660 0%, #ffffff 100%);
+    position: relative;
+    padding: 1px 0 0;
+    border: 3px gray;
+    border-radius: 8px;
+}
+#translators li ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 42px;
+}
+#translators li ul li{
+    float: none;
+    height: 30px;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: -webkit-linear-gradient(#666660 0%, #ffffff 100%);
+    font-size: small;
+    font-style: italic;
+}
+#translators li a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    color:    #006A35;
+    text-decoration: none;
+}
+
+#translators li:hover ul{
+    display: block;
+}
+#translators li:hover{
+    background:-webkit-linear-gradient(#666660 0%, #ffffff 100%);
+}
+#translators li ul li ul{
+    left:50px;
+    top: 0;
+}
+#translators li ul li ul li{display: none;}
+#translators li ul li:hover ul li{display: block;}
+

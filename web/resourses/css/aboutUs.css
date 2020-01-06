@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-image: url(http://www.evropa.nikopol.net/fon1/background_31.png);
+    color: #302E2D;
+    font-family: "Apple Color Emoji";
+    font-size: medium;
+}
+
+font{
+    font-size: medium;
+    font-family: "Apple Color Emoji";
+}
